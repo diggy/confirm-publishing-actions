@@ -43,6 +43,7 @@ if ( ! class_exists( 'CPA_Confirm_Publishing_Actions' ) )
 class CPA_Confirm_Publishing_Actions
 {
     var $version = '1.2';
+    var $plugin_dir = '';
     var $plugin_dir_url = '';
     
     function CPA_Confirm_Publishing_Actions()
@@ -51,6 +52,7 @@ class CPA_Confirm_Publishing_Actions
     }
     function __construct()
     {
+        $this->plugin_dir = trailingslashit( dirname( plugin_basename( __FILE__ ) ) );
         $this->plugin_dir_url = trailingslashit( plugins_url( dirname( plugin_basename( __FILE__ ) ) ) );
         
         if ( ! is_admin() )
@@ -62,7 +64,7 @@ class CPA_Confirm_Publishing_Actions
     }
     function admin_init()
     {
-        load_plugin_textdomain( 'pjh-cpa', false, $this->plugin_dir_url . 'inc/lang/' );
+        load_plugin_textdomain( 'pjh-cpa', false, $this->plugin_dir . 'inc/lang/' );
         
         do_action( 'cpa_admin_init' );
     }

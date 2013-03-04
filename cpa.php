@@ -1,19 +1,17 @@
 <?php
 /*
 Plugin Name: Confirm Publishing Actions
-Plugin URI: http://peterherrel.com/wordpress/plugins/confirm-publishing-actions/
+Plugin URI: http://wordpress.org/extend/plugins/confirm-publishing-actions/
 Description: Confirm Publishing Actions is a WordPress plugin that prompts a user to click a confirm (or cancel) button whenever he is trying to submit, publish, update or delete a WordPress post. Simple, lightweight, customizable and translation-ready.
 Version: 1.2
-Author: donutz
-Author URI: http://peterherrel.com/
+Author: Peter J. Herrel, Ramiro García Espantaleón
 License: GPL2
+Copyright: 2011-2013 Shared and distributed between Peter J. Herrel, Ramiro García Espantaleón
 Text Domain: pjh-cpa
 Domain Path: /inc/lang
 */
 
-/*  Copyright 2011-2013  Peter J. Herrel  (email : peterherrel <at> gmail <dot> com)
-
-    This program is free software; you can redistribute it and/or modify
+/*  This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
     published by the Free Software Foundation.
 

@@ -1,20 +1,21 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: Confirm Publishing Actions v1.2.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2013-03-08 23:20:56+0000\n"
+"Last-Translator: admin <peterherrel+localhost@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: \n"
-"X-Poedit-Country: \n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: \n"
+"X-Poedit-Basepath: ../../\n"
 "X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
@@ -23,79 +24,91 @@ msgstr ""
 #: cpa.php:0
 #@ pjh-cpa
 msgid "Confirm Publishing Actions"
-msgstr "Confirm Publishing Actions"
+msgstr ""
 
 #. translators: plugin header field 'PluginURI'
 #: cpa.php:0
 #@ pjh-cpa
-msgid "http://www.codezilla.nl/wordpress/plugin/confirm-publishing-actions/"
+msgid "http://wordpress.org/extend/plugins/confirm-publishing-actions/"
 msgstr ""
 
 #. translators: plugin header field 'Description'
 #: cpa.php:0
 #@ pjh-cpa
 msgid "Confirm Publishing Actions is a WordPress plugin that prompts a user to click a confirm (or cancel) button whenever he is trying to submit, publish, update or delete a WordPress post. Simple, lightweight, customizable and translation-ready."
-msgstr "Confirm Publishing Actions is a WordPress plugin that prompts a user to click a confirm (or cancel) button whenever he is trying to submit, publish, update or delete a WordPress post. Simple, lightweight, customizable and translation-ready."
+msgstr "<em>Confirm Publishing Actions</em> is een WordPress plugin die de gebruiker vraagt om te bevestigen (of annuleren) wanneer hij of zij een bericht tracht in te zenden, publiceren, updaten of verwijderen. Eenvoudig, elegant, aanpasbaar en klaar om te vertalen."
 
 #. translators: plugin header field 'Author'
 #: cpa.php:0
 #@ pjh-cpa
-msgid "donutz"
-msgstr ""
-
-#. translators: plugin header field 'AuthorURI'
-#: cpa.php:0
-#@ pjh-cpa
-msgid "http://www.codezilla.nl/"
+msgid "Peter J. Herrel, Ramiro García Espantaleón"
 msgstr ""
 
 #. translators: plugin header field 'Version'
 #: cpa.php:0
 #@ pjh-cpa
-msgid "1.0"
+msgid "1.2.1"
 msgstr ""
 
-#: cpa.php:70
+#: cpa.php:83
 #@ pjh-cpa
 msgid "Post"
-msgstr "Post"
+msgstr "Bericht"
 
-#: cpa.php:78
+#: cpa.php:90
 #, php-format
 #@ pjh-cpa
 msgid "You are about to delete this %1$s. Proceed?"
-msgstr "You are about to delete this %1$s. Proceed?"
+msgstr "%1$s verwijderen. Doorgaan?"
 
-#: cpa.php:79
+#: cpa.php:91
 #, php-format
 #@ pjh-cpa
 msgid "You are about to submit this %1$s for review. Proceed?"
-msgstr "You are about to submit this %1$s for review. Proceed?"
+msgstr "%1$s inzenden voor goedkeuring. Doorgaan?"
 
-#: cpa.php:80
+#: cpa.php:92
 #, php-format
 #@ pjh-cpa
 msgid "You are about to publish this %1$s. Proceed?"
-msgstr "You are about to publish this %1$s. Proceed?"
+msgstr "%1$s publiceren. Doorgaan?"
 
-#: cpa.php:81
+#: cpa.php:93
 #, php-format
 #@ pjh-cpa
 msgid "You are about to update this %1$s. Proceed?"
-msgstr "You are about to update this %1$s. Proceed?"
+msgstr "%1$s updaten. Doorgaan?"
+
+#: cpa.php:100
+#@ default
+msgid "Submit for Review"
+msgstr ""
+
+#: cpa.php:101
+#@ default
+msgid "Publish"
+msgstr ""
+
+#: cpa.php:102
+#@ default
+msgid "Update"
+msgstr ""
+
+#: cpa.php:115
+#, php-format
+#@ pjh-cpa
+msgid "<a href=\"%1$s\">Documentation</a>"
+msgstr "<a href=\"%1$s\">Documentatie</a>"
+
+#: cpa.php:116
+#, php-format
+#@ pjh-cpa
+msgid "<a href=\"%1$s\">Support</a>"
+msgstr "<a href=\"%1$s\">Ondersteuning</a>"
 
 #: cpa.php:117
+#, php-format
 #@ pjh-cpa
-msgid "Documentation"
-msgstr "Documentation"
-
-#: cpa.php:118
-#@ pjh-cpa
-msgid "Support"
-msgstr "Support"
-
-#: cpa.php:119
-#@ pjh-cpa
-msgid "Donate"
-msgstr "Donate"
+msgid "<a href=\"%1$s\">Donate</a>"
+msgstr "<a href=\"%1$s\">Doneren</a>"
 

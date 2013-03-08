@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Confirm Publishing Actions v1.2.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-03-08 23:09:59+0000\n"
+"PO-Revision-Date: 2013-03-08 22:48:26+0000\n"
 "Last-Translator: admin <peterherrel+localhost@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -11,8 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: CSL v1.x\n"
-"X-Poedit-Language: Spanish\n"
-"X-Poedit-Country: SPAIN\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
 "X-Poedit-Basepath: ../../\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: cpa.php:0
 #@ pjh-cpa
 msgid "Confirm Publishing Actions"
-msgstr "Confirmar Acciones de Publicación"
+msgstr "Conferma Azioni di Pubblicazione"
 
 #. translators: plugin header field 'PluginURI'
 #: cpa.php:0
@@ -36,7 +36,7 @@ msgstr ""
 #: cpa.php:0
 #@ pjh-cpa
 msgid "Confirm Publishing Actions is a WordPress plugin that prompts a user to click a confirm (or cancel) button whenever he is trying to submit, publish, update or delete a WordPress post. Simple, lightweight, customizable and translation-ready."
-msgstr "Confirmar Acciones de Publicación es un plugin de WordPress que insta al usuario a hacer clic en un botón de confirmación (o cancelación) cada vez que se dispone a enviar, publicar, actualizar o eliminar una entrada de WordPress. Sencillo, ligero, personalizable y preparado para ser traducido."
+msgstr "Conferma Azioni di Pubblicazione è un plugin di Wordpress che richiede all'utente di cliccare una conferma (o un annullamento) ogni qual volta stia cercando di sottoporre, pubblicare, modificare o cancellare un post di Wordpress. Semplice, leggero, personalizzabile e pronto per la traduzione."
 
 #. translators: plugin header field 'Author'
 #: cpa.php:0
@@ -53,31 +53,31 @@ msgstr ""
 #: cpa.php:83
 #@ pjh-cpa
 msgid "Post"
-msgstr "Entrada"
+msgstr "Articolo"
 
 #: cpa.php:90
 #, php-format
 #@ pjh-cpa
 msgid "You are about to delete this %1$s. Proceed?"
-msgstr "Está a punto de eliminar esta %1$s. ¿Está seguro?"
+msgstr "Stai per cancellare questo %1$s. Continuare?"
 
 #: cpa.php:91
 #, php-format
 #@ pjh-cpa
 msgid "You are about to submit this %1$s for review. Proceed?"
-msgstr "Está a punto de enviar esta %1$s para revisión. ¿Está seguro?"
+msgstr "Stai per sottoporre a revisione questo %1$s. Continuare?"
 
 #: cpa.php:92
 #, php-format
 #@ pjh-cpa
 msgid "You are about to publish this %1$s. Proceed?"
-msgstr "Está a punto de publicar esta %1$s. ¿Está seguro?"
+msgstr "Stai per pubblicare questo %1$s. Continuare?"
 
 #: cpa.php:93
 #, php-format
 #@ pjh-cpa
 msgid "You are about to update this %1$s. Proceed?"
-msgstr "Está a punto de actualizar esta %1$s. ¿Está seguro?"
+msgstr "Stai per modificare questo %1$s. Continuare?"
 
 #: cpa.php:100
 #@ default
@@ -98,17 +98,17 @@ msgstr ""
 #, php-format
 #@ pjh-cpa
 msgid "<a href=\"%1$s\">Documentation</a>"
-msgstr "<a href=\"%1$s\">Documentación</a>"
+msgstr "<a href=\"%1$s\">Documentazione</a>"
 
 #: cpa.php:116
 #, php-format
 #@ pjh-cpa
 msgid "<a href=\"%1$s\">Support</a>"
-msgstr "<a href=\"%1$s\">Soporte</a>"
+msgstr "<a href=\"%1$s\">Supporto</a>"
 
 #: cpa.php:117
 #, php-format
 #@ pjh-cpa
 msgid "<a href=\"%1$s\">Donate</a>"
-msgstr "<a href=\"%1$s\">Donar</a>"
+msgstr "<a href=\"%1$s\">Donazioni</a>"
 

@@ -1,19 +1,19 @@
-jQuery(document).ready(function()
+jQuery(document).ready(function($)
 {
-    jQuery("a.submitdelete").click(function()
+    $("a.submitdelete").click(function()
     {
         var c = true;
         c = confirm(cpa_l10n_obj.confirm_delete);
         if (!c)
         {
-            jQuery("#submitpost .spinner").hide();
-            jQuery("input#publish").removeClass("button-primary-disabled");
+            $("#submitpost .spinner").hide();
+            $("input#publish").removeClass("button-primary-disabled");
         }
         return c;
     });
-    jQuery("input#publish").click(function()
+    $("input#publish").click(function()
     {
-        var a = jQuery(this).val();
+        var a = $(this).val();
         var c = true;
         
         if (a == cpa_l10n_obj.submit)
@@ -28,10 +28,14 @@ jQuery(document).ready(function()
         {
             c = confirm(cpa_l10n_obj.confirm_update);
         }
+        if (a == cpa_l10n_obj.schedule)
+        {
+            c = confirm(cpa_l10n_obj.confirm_schedule);
+        }
         if (!c)
         {
-            jQuery("#submitpost .spinner").hide();
-            jQuery("input#publish").removeClass("button-primary-disabled");
+            $("#submitpost .spinner").hide();
+            $("input#publish").removeClass("button-primary-disabled");
         }
         return c;
     });

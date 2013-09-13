@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Confirm Publishing Actions v1.2.1\n"
+"Project-Id-Version: Confirm Publishing Actions v1.2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-03-08 23:09:59+0000\n"
+"PO-Revision-Date: 2013-09-13 17:53:14+0000\n"
 "Last-Translator: admin <peterherrel+localhost@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -44,71 +44,82 @@ msgstr "Confirmar Acciones de Publicación es un plugin de WordPress que insta a
 msgid "Peter J. Herrel, Ramiro García Espantaleón"
 msgstr ""
 
-#. translators: plugin header field 'Version'
-#: cpa.php:0
-#@ pjh-cpa
-msgid "1.2.1"
-msgstr ""
-
-#: cpa.php:83
+#: cpa.php:82
 #@ pjh-cpa
 msgid "Post"
 msgstr "Entrada"
 
-#: cpa.php:90
+#: cpa.php:98
 #, php-format
 #@ pjh-cpa
 msgid "You are about to delete this %1$s. Proceed?"
 msgstr "Está a punto de eliminar esta %1$s. ¿Está seguro?"
 
-#: cpa.php:91
+#: cpa.php:99
 #, php-format
 #@ pjh-cpa
 msgid "You are about to submit this %1$s for review. Proceed?"
 msgstr "Está a punto de enviar esta %1$s para revisión. ¿Está seguro?"
 
-#: cpa.php:92
+#: cpa.php:100
 #, php-format
 #@ pjh-cpa
 msgid "You are about to publish this %1$s. Proceed?"
 msgstr "Está a punto de publicar esta %1$s. ¿Está seguro?"
 
-#: cpa.php:93
+#: cpa.php:101
 #, php-format
 #@ pjh-cpa
 msgid "You are about to update this %1$s. Proceed?"
 msgstr "Está a punto de actualizar esta %1$s. ¿Está seguro?"
 
-#: cpa.php:100
+#: cpa.php:110
 #@ default
 msgid "Submit for Review"
 msgstr ""
 
-#: cpa.php:101
+#: cpa.php:111
 #@ default
 msgid "Publish"
 msgstr ""
 
-#: cpa.php:102
+#: cpa.php:112
 #@ default
 msgid "Update"
 msgstr ""
 
-#: cpa.php:115
+#: cpa.php:126
 #, php-format
 #@ pjh-cpa
 msgid "<a href=\"%1$s\">Documentation</a>"
 msgstr "<a href=\"%1$s\">Documentación</a>"
 
-#: cpa.php:116
+#: cpa.php:127
 #, php-format
 #@ pjh-cpa
 msgid "<a href=\"%1$s\">Support</a>"
 msgstr "<a href=\"%1$s\">Soporte</a>"
 
-#: cpa.php:117
+#: cpa.php:128
 #, php-format
 #@ pjh-cpa
 msgid "<a href=\"%1$s\">Donate</a>"
 msgstr "<a href=\"%1$s\">Donar</a>"
+
+#. translators: plugin header field 'Version'
+#: cpa.php:0
+#@ pjh-cpa
+msgid "1.2.3"
+msgstr ""
+
+#: cpa.php:102
+#, php-format
+#@ pjh-cpa
+msgid "You are about to schedule this %1$s. Proceed?"
+msgstr "Está a punto de programar esta %1$s. ¿Está seguro?"
+
+#: cpa.php:113
+#@ default
+msgid "Schedule"
+msgstr ""
 

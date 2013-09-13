@@ -1,12 +1,10 @@
-# Copyright (C) 2013 
-# This file is distributed under the same license as the package.
 msgid ""
 msgstr ""
-"Project-Id-Version: pjh-cpa\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/confirm-publishing-actions\n"
-"POT-Creation-Date: 2013-03-08 23:27+0100\n"
-"PO-Revision-Date: 2013-03-08 23:28+0100\n"
-"Last-Translator: P. J. Herrel <peterherrel+wordpress@gmail.com>\n"
+"Project-Id-Version: Confirm Publishing Actions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-13 20:17+0100\n"
+"PO-Revision-Date: 2013-09-13 20:17+0100\n"
+"Last-Translator: P. J. Herrel <peterherrel+localhost@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,83 +13,62 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#. translators: plugin header field 'Name'
-#: cpa.php:0
-#@ pjh-cpa
-msgid "Confirm Publishing Actions"
-msgstr ""
-
-#. translators: plugin header field 'PluginURI'
-#: cpa.php:0
-#@ pjh-cpa
-msgid "http://wordpress.org/extend/plugins/confirm-publishing-actions/"
-msgstr ""
-
-#. translators: plugin header field 'Description'
-#: cpa.php:0
-#@ pjh-cpa
-msgid "Confirm Publishing Actions is a WordPress plugin that prompts a user to click a confirm (or cancel) button whenever he is trying to submit, publish, update or delete a WordPress post. Simple, lightweight, customizable and translation-ready."
-msgstr ""
-
-#. translators: plugin header field 'Author'
-#: cpa.php:0
-#@ pjh-cpa
-msgid "Peter J. Herrel, Ramiro García Espantaleón"
-msgstr ""
-
-#. translators: plugin header field 'Version'
-#: cpa.php:0
-#@ pjh-cpa
-msgid "1.2.1.1"
-msgstr ""
-
-#: cpa.php:83
+#: cpa.php:82
 msgid "Post"
 msgstr ""
 
-#: cpa.php:90
+#: cpa.php:98
 #, php-format
 msgid "You are about to delete this %1$s. Proceed?"
 msgstr ""
 
-#: cpa.php:91
+#: cpa.php:99
 #, php-format
 msgid "You are about to submit this %1$s for review. Proceed?"
 msgstr ""
 
-#: cpa.php:92
+#: cpa.php:100
 #, php-format
 msgid "You are about to publish this %1$s. Proceed?"
 msgstr ""
 
-#: cpa.php:93
+#: cpa.php:101
 #, php-format
 msgid "You are about to update this %1$s. Proceed?"
 msgstr ""
 
-#: cpa.php:100
+#: cpa.php:102
+#, php-format
+msgid "You are about to schedule this %1$s. Proceed?"
+msgstr ""
+
+#: cpa.php:110
 msgid "Submit for Review"
 msgstr ""
 
-#: cpa.php:101
+#: cpa.php:111
 msgid "Publish"
 msgstr ""
 
-#: cpa.php:102
+#: cpa.php:112
 msgid "Update"
 msgstr ""
 
-#: cpa.php:115
+#: cpa.php:113
+msgid "Schedule"
+msgstr ""
+
+#: cpa.php:126
 #, php-format
 msgid "<a href=\"%1$s\">Documentation</a>"
 msgstr ""
 
-#: cpa.php:116
+#: cpa.php:127
 #, php-format
 msgid "<a href=\"%1$s\">Support</a>"
 msgstr ""
 
-#: cpa.php:117
+#: cpa.php:128
 #, php-format
 msgid "<a href=\"%1$s\">Donate</a>"
 msgstr ""

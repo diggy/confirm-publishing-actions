@@ -3,7 +3,7 @@ Contributors: donutz, inbytesinc
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H23P4H8CHF95N
 Tags: publish, delete, update, submit, confirm, confirmation, quickpress, translation-ready
 Requires at least: 3.1
-Tested up to: 3.6.1
+Tested up to: 4.1
 Stable tag: 1.2.3
 License: GPLv2
 
@@ -28,7 +28,7 @@ Features in version 1.2.3 include:
 
 = Automatic installation =
 
-Log in to your WordPress admin panel, navigate to the Plugins menu and use the search form to search for this plugin. Click Install and WordPress will automatically complete the installation. 
+Log in to your WordPress admin panel, navigate to the Plugins menu and use the search form to search for this plugin. Click Install and WordPress will automatically complete the installation.
 
 = Manual installation =
 

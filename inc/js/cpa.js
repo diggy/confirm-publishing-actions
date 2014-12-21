@@ -1,42 +1,53 @@
-jQuery(document).ready(function($)
+jQuery( document ).ready( function( $ )
 {
-    $("a.submitdelete").click(function()
+    $( "body" ).on( "click touchstart", "a.submitdelete", function()
     {
-        var c = true;
-        c = confirm(cpa_l10n_obj.confirm_delete);
-        if (!c)
+        if( "wp-link-cancel" == $( this ).parent().attr( "id" ) )
         {
-            $("#submitpost .spinner").hide();
-            $("input#publish").removeClass("button-primary-disabled");
+            return false;
         }
+
+        var c = true;
+
+        c = confirm( cpa_l10n_obj.confirm_delete );
+
+        if( ! c )
+        {
+            $( "#submitpost .spinner" ).hide();
+            $( "input#publish" ).removeClass( "button-primary-disabled" );
+        }
+
         return c;
     });
-    $("input#publish").click(function()
+
+    $( "body" ).on( "click touchstart", "input#publish", function()
     {
-        var a = $(this).val();
+        var a = $( this ).val();
         var c = true;
-        
-        if (a == cpa_l10n_obj.submit)
+
+        if( a == cpa_l10n_obj.submit )
         {
-            c = confirm(cpa_l10n_obj.confirm_submit);
+            c = confirm( cpa_l10n_obj.confirm_submit );
         }
-        if (a == cpa_l10n_obj.publish)
+        if( a == cpa_l10n_obj.publish )
         {
-            c = confirm(cpa_l10n_obj.confirm_publish);
+            c = confirm( cpa_l10n_obj.confirm_publish );
         }
-        if (a == cpa_l10n_obj.update)
+        if( a == cpa_l10n_obj.update )
         {
-            c = confirm(cpa_l10n_obj.confirm_update);
+            c = confirm( cpa_l10n_obj.confirm_update );
         }
-        if (a == cpa_l10n_obj.schedule)
+        if( a == cpa_l10n_obj.schedule )
         {
-            c = confirm(cpa_l10n_obj.confirm_schedule);
+            c = confirm( cpa_l10n_obj.confirm_schedule );
         }
-        if (!c)
+
+        if( ! c)
         {
-            $("#submitpost .spinner").hide();
-            $("input#publish").removeClass("button-primary-disabled");
+            $( "#submitpost .spinner" ).hide();
+            $( "input#publish" ).removeClass( "button-primary-disabled" );
         }
+
         return c;
     });
 });
